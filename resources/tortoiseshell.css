@@ -1,0 +1,128 @@
+/**Universal Changes**/ 
+
+html {
+	font-size: 18px; 
+	line-height: 1.4; 
+}
+
+body {
+	font-family: helvetica, sans-serif; 
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto; 
+}
+
+div {
+	display: block; 
+}
+
+/**Company Header/Logo**/
+
+
+.logo {
+	background-color: cadetblue; 
+	color: white;
+	
+}
+
+.logo .container {
+	display: flex; 
+	align-items: center; 
+	 padding: 1rem 0; 
+	
+}
+
+.logo img {
+	height: 1.5rem; 
+	margin-left: 2rem; 
+	margin-right: 1rem; 
+}
+
+ h2 {
+	font-size: 1rem;
+}
+
+/**Company Header / Navigation**/
+
+header {
+	position: relative; 
+	top: 1rem;
+	align-items: center; 
+	justify-content: center; 
+	z-index: 3; 
+}
+
+header nav {
+	float: right; 
+	text-align: right; 
+	flex-grow: 2; 
+}
+
+header nav ul li {
+	color: white; 
+	list-style-type: none; 
+	display: inline-block;  
+	align-items: center;
+	padding: 1rem .5rem;
+	margin-right: 1.5rem;
+}
+
+li a {
+	color: white; 
+	list-style-type: none; 
+	text-decoration: none; 
+}
+
+/**Company Header / Box**/
+
+.header_img {
+	background-image: url("images/glasses-bg.png"); 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	height: 30rem; 
+}
+
+
+.header_box {
+	background-color: white; 
+	color: gray; 
+	position: absolute; 
+	top: 10rem;
+	right: 0;
+	padding: 1.5rem 5rem;
+}
+
+.header_box h1 {
+	font-family: helvetica, sans-serif; 
+	font-weight: bold; 
+	font-size: 2rem; 
+	line-height: 1.2; 	
+	display: block;
+	text-transform: uppercase;
+}
+
+/** Services **/ 
+
+.services { 
+	display: flex; 
+	justify-content: space-between; 
+	margin: 6rem 6rem 0 6rem; 
+	height: 8rem;
+	align-items: center;
+}
+	
+.service .paper {	
+	width: 3.5rem; 
+}
+
+.service .ruler { 
+	width: 5rem; 
+}
+
+.services h3 {
+	text-align: center;
+	line-height: 1.4rem;
+}
